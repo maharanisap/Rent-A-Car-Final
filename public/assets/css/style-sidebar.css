@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+}
+
+.sidebar{
+    display: flex;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #400042;
+    
+}
+
+.sidebar ul a{
+
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 15px;
+    color: rgb(184, 179, 179);
+    box-sizing: border-box;
+    transition: .4s;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+ul li:hover a{
+    padding-left: 20px;
+    color: white;
+}
+
+.sidebar ul a i{
+    margin-right: 15px;
+}
+
+.sidebar ul form li button{
+    border: none;
+    background: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 15px;
+    color: rgb(184, 179, 179);
+    box-sizing: border-box;
+    transition: .4s;
+}
+
+.sidebar ul form li i{
+    margin-right: 15px;
+}
+
+ul form li:hover button{
+    padding-left: 20px;
+    color: white;
+}
